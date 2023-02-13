@@ -17,7 +17,7 @@ public interface ISpecimenService {
 	SpecimenDTO fetchByID(int id);
 
 	/**
-	 * Persist the given DOT
+	 * Persist the given DTO
 	 * @param speciemenDTO
 	 */
 	void save(SpecimenDTO speciemenDTO);
